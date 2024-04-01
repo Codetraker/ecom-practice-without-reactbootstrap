@@ -5,7 +5,8 @@ const MusicSec = props =>{
     return (
         <>
             <div className="musicbar">Music</div>
-            <div>
+            <div className='listdiv'>
+                <ListItems />
                 <ListItems />
             </div>
         </>

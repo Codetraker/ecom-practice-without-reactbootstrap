@@ -8,3 +8,12 @@
     font-size: larger;
     font-weight: bold;
 }
+.listdiv{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    justify-items: center;
+    grid-gap: 10%;
+    background-color: aqua;
+}
