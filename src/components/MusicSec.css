@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     font-family: 'Times New Roman', Times, serif;
-    font-size: larger;
+    font-size: 4vh;
     font-weight: bold;
 }
 .listdiv{
@@ -15,5 +15,49 @@
     grid-template-columns: 45% 45%;
     justify-items: center;
     grid-gap: 10%;
-    background-color: aqua;
+    /* background-color: rgb(111, 255, 255); */
+}
+.merchbar{
+    height: 12vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4vh;
+    font-weight: bold;
+    margin-top: 10%;
+}
+.seeCart{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+.seeCart button{
+    height: 3vw;
+    width: 8vw;
+    background-color: rgb(0, 140, 255);
+    color: white;
+    border: 0;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 1vh;
+    padding: 1%;
+}
+.footer{
+    background-color: rgb(72, 190, 253);
+    height: 10vh;
+    padding-left: 15%;
+    padding-right: 15%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
+.footer h7{
+    font-size: 6vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
 }
